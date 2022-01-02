@@ -6,7 +6,7 @@ import json
 root=Tk()
 
 root.title("Dictionary")
-root.iconbitmap("C:\\Users\\lenovo pc\\python\\dictionary\\Martz90-Circle-Books.ico")
+root.iconbitmap("Martz90-Circle-Books.ico")
 root.config(background='#1D1C1A')
 root.geometry('600x400+50+50')
 
