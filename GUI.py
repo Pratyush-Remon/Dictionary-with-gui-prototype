@@ -10,7 +10,7 @@ root.iconbitmap("Martz90-Circle-Books.ico")
 root.config(background='#1D1C1A')
 root.geometry('600x400+50+50')
 
-data=json.load(open("C:\\Users\\lenovo pc\\python\\dictionary\\dic.json"))
+data=json.load(open("dic.json"))
 
 
 
