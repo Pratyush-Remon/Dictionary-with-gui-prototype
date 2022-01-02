@@ -1,7 +1,7 @@
 import json
 from difflib import get_close_matches
 
-data=json.load(open("C:\\Users\\lenovo pc\\python\\dictionary\\dic.json"))
+data=json.load(open("dic.json"))          #path for the dic.jsaon 
 
 def translate(w):
     w=w.lower()
