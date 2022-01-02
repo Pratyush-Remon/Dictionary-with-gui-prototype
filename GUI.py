@@ -1,16 +1,16 @@
 from tkinter import *
-from tkinter import ttk
+from tkinter import ttk                        #i guess i didnt used it but nevermind
 from difflib import get_close_matches
 import json
 
 root=Tk()
 
 root.title("Dictionary")
-root.iconbitmap("Martz90-Circle-Books.ico")
+root.iconbitmap("Martz90-Circle-Books.ico")          #path for the icon file
 root.config(background='#1D1C1A')
 root.geometry('600x400+50+50')
 
-data=json.load(open("dic.json"))
+data=json.load(open("dic.json"))                     #path for the dic.json
 
 
 
