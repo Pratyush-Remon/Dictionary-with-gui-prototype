@@ -5,7 +5,7 @@ import json
 root=Tk()                                         #window configs
 
 root.title("Dictionary")
-root.iconbitmap("path\\Martz90-Circle-Books.ico")
+root.iconbitmap("path\\Martz90-Circle-Books.ico") #replace path with the path of respected files
 root.config(background='#1D1C1A')
 root.geometry('600x400+50+50')
 root.minsize(500,500)
