@@ -5,13 +5,13 @@ import json
 root=Tk()                                         #window configs
 
 root.title("Dictionary")
-root.iconbitmap("C:\\Users\\Soni\\Documents\\Python\\Dictionary-with-gui-\\Martz90-Circle-Books.ico")
+root.iconbitmap("path\\Martz90-Circle-Books.ico")
 root.config(background='#1D1C1A')
 root.geometry('600x400+50+50')
 root.minsize(500,500)
 root.maxsize(500,500)
 
-data=json.load(open("C:\\Users\\Soni\\Documents\\Python\\Dictionary-with-gui-\\dic.json")) #opening file which have dictionry's data
+data=json.load(open("path\\dic.json")) #opening file which have dictionry's data
 
 
 count=0
@@ -45,7 +45,7 @@ def translate(w):                 #its the main function that finds the meaning 
     elif len(get_close_matches(w,data.keys()))>0:                                 #condition if the word is misspelt 
         root2=Toplevel(root)                                                      #second window
         root2.config(background='#404040')
-        root2.iconbitmap("C:\\Users\\Soni\\Documents\\Python\\Dictionary-with-gui-\\Martz90-Circle-Books.ico")
+        root2.iconbitmap("path\\Martz90-Circle-Books.ico")
         root2.geometry('600x400+50+50')
         root2.minisize(400,400)
         root2.maxsize(400,400)
